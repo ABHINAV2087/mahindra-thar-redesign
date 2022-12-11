@@ -1,0 +1,711 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth; 
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: #4b5058aa;
+}
+
+#navbar{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#pleft{
+    width: 55%;  
+    height: 100%;
+    position: relative;
+    
+}
+
+#abc {
+    border: 2px dotted rgb(15, 15, 15); 
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+}
+#xyz {
+    border: 2px dotted rgb(15, 15, 15); 
+    background-color: black;
+  
+}
+#lmn{
+    border: 4px dotted rgb(15, 15, 15); 
+    background-color: black;
+    width: 45%;
+    margin-left: 55%;
+}
+
+
+#circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 20%;
+    margin-left: 40%;
+    overflow: hidden;
+    /* position: absolute; */
+    display: flex;
+    
+}
+
+
+
+#logo{ 
+    margin-top: -5px;
+    margin-left: -45px;
+    transition: all cubic-bezier(0.19,1,0.22,1)2s;
+   
+}
+#logo:hover{
+    scale: 1.3;
+}
+#circle h2{
+    font-family: 'Gluten', cursive;
+    font-size: 48px;
+    font-weight:bolder;
+    color: azure;
+    letter-spacing: 5px;
+    transition: all cubic-bezier(0.19,1,0.22,1)2s;
+    position: absolute;
+    left: 9%;
+    top: 30%;
+}
+#circle h2:hover{
+    scale: 0.9;
+    color: black;
+}
+
+#circle h3{
+    font-family: 'Gluten', cursive;
+    font-size: 15px;
+    border: 7px solid black;
+    position: absolute;
+    left: 21%;
+    padding: 2px 8px;
+    /* background-color: black; */
+    border-radius: 25px;
+    color: aliceblue;
+    letter-spacing: 3px;
+    opacity: 60%;
+}
+#circle h3:hover{
+    opacity: 95%;
+} 
+
+#l-navlinks{
+    padding-top: 55px;
+    transition: all cubic-bezier(0.19,1,0.22,1)4s;
+    
+    
+}
+#l-navlinks a{
+    padding: 10px 20px;
+   
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: gilroy;
+    border: 5px solid black;
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 30px;
+    margin: 30px;    
+}
+#l-navlinks a i{
+    padding-right: 10px;
+}
+
+#l-navlinks a:hover{
+    background-color: black;
+}
+
+
+
+
+
+#pleft #lbg{
+    
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/8706096/pexels-photo-8706096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 90%;
+    
+}
+
+#text{  
+   position: absolute;
+   top: 500px;
+   left: 50px;   
+}
+
+#line1{
+    display:flex ;
+    gap: 20px;
+    padding: 0px;
+}
+#line1 h3{
+    font-family: 'Dangrek', cursive;
+    font-size: 38px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+}
+
+
+
+#line1 h2{
+    font-family: 'Rubik Distressed', cursive;
+    font-size: 73px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    
+}
+
+#text h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 130px;
+    margin-left: -550PX;
+    transition: all cubic-bezier(0.19,1,0.22,1)2s;
+    
+}
+
+#text h1:hover{
+    scale:1.1
+}
+
+#line2 h2{
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding: 22px 0px;   
+}
+
+#btn {
+    position: absolute;
+     z-index: 1;
+     left: 50%;
+     top: 85%;
+    
+}
+
+#btn button{
+   background: transparent;
+   padding: 13px 25px;
+   font-size: 25px;
+   color: aliceblue;
+   border: 5px solid black;
+   border-radius: 30PX;
+   font-family: gilroy;
+   background-color: black; 
+   transition: all cubic-bezier(0.19,1,0.22,1)2s;
+   opacity: 80%;
+}
+
+#btn button:hover{
+    opacity: 100%; 
+    scale: 1.3;;
+}
+
+#pright{
+    width: 45%;
+    height: 100%;
+    
+}
+#rup{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#rup-l{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://www.motorworldindia.com/wp-content/uploads/2020/09/DSC_4256_800x534-800x445.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+    position: relative;
+    display: flex;
+}
+#rup-l h2:nth-child(1){
+    
+    position: absolute;
+    top: 85%;
+    left: 3%;
+    font-size: 62px;
+    font-family: 'Rubik Vinyl', cursive;
+    letter-spacing: 5px;
+}
+#rup-l h2:nth-child(2){
+    
+    position: absolute;
+    top: 90%;
+    left: 83%;
+    font-size: 35px;
+    font-family: gilroy;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+#rup-r{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://w0.peakpx.com/wallpaper/17/695/HD-wallpaper-thar-top-best-thar-black-thar-thumbnail.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+    
+    
+}
+#rup-r h2{
+    
+    position: relative;
+    top: 90%;
+    left: 10%;
+    font-size: 35px;
+    font-family: 'Rubik Bubbles', cursive;
+    letter-spacing: 5px;
+    
+}
+
+#rlow{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    overflow: hidden;
+}
+
+
+#rlow-l{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://imgk.timesnownews.com/story/Mahindra_Thar_2020_Black.jpg?tr=w-600,h-450,fo-auto);
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+    overflow: hidden;
+    
+    
+}
+#rlow-l h1{
+    
+    position: relative;
+    top: 1%;
+    left: 78%;
+    font-size: 45px;
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: 5px;
+    
+}
+
+
+#rlow-r{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/40087/thar-exterior-left-rear-three-quarter.jpeg?q=75);
+    background-position: center;
+    background-size: cover;
+    opacity: 90%;
+    
+}
+#rlow-r h1{
+    
+    position: relative;
+    top: 2%;
+    left: 3%;
+    font-size: 48px;
+    font-family: 'Bungee Shade', cursive;
+    letter-spacing: 5px;
+    
+}
+#specs{
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    background-color:#4b5058aa;
+}
+
+#spec-l{
+    width: 50%;
+    height: 100%;
+    
+   
+}
+
+#spec-lup{
+   width: 100%;
+   height: 50%;
+   
+   opacity: 90%;
+   background-image: url(https://images.pexels.com/photos/8337436/pexels-photo-8337436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+   background-size: cover;
+   background-position: center;
+   -webkit-transform: skew(-22deg);
+}
+
+#spec-ldown{
+    width: 100%;
+    height: 50%;
+    
+    opacity: 90%;
+    background-image: url(https://imgd-ct.aeplcdn.com/1056x660/n/cw/ec/40087/thar-exterior-right-rear-three-quarter.jpeg?q=75);
+    background-size: cover;
+    background-position: center;
+    -webkit-transform: skew(22deg);
+ }
+
+#spec-r{
+    width: 50%;
+    
+    font-family: GILROY ;
+}
+
+#spec-r h1{
+    margin-top: 10%;
+    
+    margin-LEFt: 30%;
+    margin-right: 20%;
+    font-size: 50px;
+    padding: 20px;
+    border-radius: 20px;
+    border:2px solid black;
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+}
+#spec-r h1 i{
+    padding: 10px 25px;
+}
+#spec-r h1:hover{
+    background-color: black;
+    color: beige;
+}
+#table{
+    display: flex;
+    justify-content: center ;
+    margin-top: 10%;
+    width: 100%;
+    gap: 70px;
+    line-height: px;
+    border-radius: 20px;
+    border:2px solid black;
+    padding: 20px 5px;
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+    position: relative;
+}
+#table:hover{
+    background-color: black;
+    color: beige;
+
+}
+
+#table td{
+    line-height: 50px;
+    border-bottom: 2px solid black;
+    font-size: 18px;
+}
+
+#tbl1{
+    font-weight: 800;
+}
+#tbl3{
+    font-weight: 800;
+}
+#line{
+    border:1px solid black;
+    background-color: black;
+    position: absolute;
+    width: 310px;
+    margin-left: 18%;
+    margin-top: -177px;
+    transform: rotate(90deg);
+}
+#colours{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    
+}
+#coloursu{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    background-color: #4b5058aa;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px; 
+    z-index: -1;
+}
+
+#coloursd{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-top: -400px;
+    background-color: #4b5058aa;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+
+#clrtxt{
+    position: absolute;
+    left: 45%;
+    top: 50%;
+    font-size: 25px;
+    font-family: gilroy;
+    border-color: black;
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 40px;
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+}
+#clrtxt:hover{
+    background-color: black;
+    color: beige;
+    scale: 0.9;
+}
+#colours img{
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+}
+#colours img:hover{
+    scale: 1.2;
+}
+#view{
+    width: 100%;
+    height: 100%;
+    background-color: #4b5058aa;
+    position: relative;
+    
+} 
+#view #video{
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+#view h1{
+    font-size: 45px;
+    font-family: gilroy;
+    border-color: black;
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 40px;
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+    top: 50%;
+    margin-left: 68%;
+    position: absolute;
+}
+#view h1:hover{
+    background-color: black;
+    color: beige;
+    scale: 1.1;
+}
+#testbtn{
+    width: 100%;
+    height: 50%;
+    background-color: #4b5058aa;
+    position: relative;
+    
+}
+#testbtn button{
+        background-color: transparent;
+        font-size: 70px;
+        font-family: gilroy;
+        border-color: black;
+        border: 2px solid;
+        padding: 10px 40px;
+        border-radius: 40px;
+        transition: all cubic-bezier(0.19,1,0.22,1)3s;
+        top: 37%;
+        margin-left: 30%;
+        position: absolute;
+   
+}
+#testbtn button:hover{
+    background-color: black;
+    color: beige;
+    scale: 1.1;
+}
+#location{
+    width: 100%;
+    height: 80%;
+    background-color: #4b5058aa;
+    position: relative;
+}
+#map{
+    position: absolute;
+    left: 46%;
+    top: 20%;
+}
+
+#locbtn button{
+    background-color: transparent;
+    font-size: 60px;
+    font-family: gilroy;
+    border-color: black;
+    border: 2px solid;
+    padding: 10px 40px;
+    border-radius: 40px;
+    transition: all cubic-bezier(0.19,1,0.22,1)3s;
+    top: 50%;
+    margin-left: 10%;
+    position: absolute;
+
+}
+#locbtn button:hover{
+    background-color: black;
+    color: beige;
+    scale: 1.1;
+}
+#about{
+    width: 100%;
+    height: 40%;
+    background-color: rgba(49, 49, 49, 0.534);
+    opacity: 80%;
+    display: flex;
+    
+}
+
+#logoname{
+    margin-left: -180px;
+}
+#abtlogo{
+    margin-left: 60px;
+}
+#socialicon{
+    margin-left: 100px;;
+    font-size: 40px;
+}
+#socialicon i{
+    padding: 5px 20px;
+    transition: all cubic-bezier(0.19,1,0.22,1)2s;
+}
+#socialicon i:hover{
+    scale: 1.5;
+}
+#socialicon i:nth-child(1):hover{
+    color: #932DAE;
+}
+
+#socialicon i:nth-child(2):hover{
+    color: rgb(7, 184, 238);
+}
+#socialicon i:nth-child(3):hover{
+    color: red;
+}
+#socialicon i:nth-child(4):hover{
+    color: rgb(0, 47, 255);
+}
+#socialicon i:nth-child(5):hover{
+    color: #0073B1;
+}
+
+#abtline{
+    border:2px solid black;
+    background-color: black;
+    width: 310px;
+    margin-left: 700px;
+    margin-top: -177px;
+    transform: rotate(90deg);   
+}
+#abttable{
+    display: flex;
+    /* margin: 100px; */
+    margin-top: 80px;
+    gap: 200px;
+    font-size: 25px;
+    font-family: gilroy; 
+}
+#abttable a{
+    text-decoration: none;
+    color: black;
+    line-height: 50PX;
+}
+#cell-a a{
+    font-size: 40px;
+    border-bottom: 1px solid black;
+    line-height: 150PX;
+    width: 100px;
+}
+#abttable td{
+    border-bottom: 1px solid black;
+}
+#cell-a i{
+    padding-left: 15px;
+}
+#bottom{
+    width: 100%;
+    height: 200px;
+    background-color: rgba(49, 49, 49, 0.534);
+    opacity: 80%; font-family: gilroy;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 600px;
+    
+}
+#bottom h1{
+    margin-top: 110px;
+    
+    margin-left: 250px; 
+    
+}
+
+#bottom h1 i{
+    padding: 0px 15px;
+    
+}
+#arrowicon{
+    
+    margin-top: 112px;
+    transition: all cubic-bezier(0.19,1,0.22,1)2s;
+}
+#arrowicon:hover{
+    scale: 1.2;
+}
+#arrowicon a{
+    background-color: rgb(0, 0, 0);
+    padding:  20px 30px;
+    text-decoration: none;
+    font-size: 28PX;
+    font-family: GILROY;
+    color:white;
+    border: 1px solid black;
+    border-radius: 40px;
+    
+}
+#arrowicon i{
+    
+    padding-right: 25PX;
+    
+}
